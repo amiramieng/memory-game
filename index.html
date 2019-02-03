@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="match">
+        MATCH!
+    </div>
+
+    <div class="game-over">
+        <span>GAME OVER</span>
+        <button class="restart" type="button" name="button">PLAY AGAIN</button>
+    </div>
+
+    <section class="info">
+        Turns: <span class="turns">3</span>
+        Score: <span class="score">0</span>
+    </section>
+
+    <section class="memory-game">
+        <div class="memory-card" data-card="100">
+            <img class="front-face" src="img/100.png" alt="React">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="100">
+            <img class="front-face" src="img/100.png" alt="React">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="eggplant">
+            <img class="front-face" src="img/eggplant.png" alt="Angular">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="eggplant">
+            <img class="front-face" src="img/eggplant.png" alt="Angular">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="okhand">
+            <img class="front-face" src="img/okhand.png" alt="Ember">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="okhand">
+            <img class="front-face" src="img/okhand.png" alt="Ember">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="poop">
+            <img class="front-face" src="img/poop.png" alt="Vue">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="poop">
+            <img class="front-face" src="img/poop.png" alt="Vue">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="sweat">
+            <img class="front-face" src="img/sweat.png" alt="Backbone">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="sweat">
+            <img class="front-face" src="img/sweat.png" alt="Backbone">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="tears">
+            <img class="front-face" src="img/tears.png" alt="Aurelia">
+            <div class="back-face"></div>
+        </div>
+
+        <div class="memory-card" data-card="tears">
+            <img class="front-face" src="img/tears.png" alt="Aurelia">
+            <div class="back-face"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
